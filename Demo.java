@@ -1,124 +1,48 @@
 public class Demo {
 
-    public void processOrder() {
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
+    public void processUserData() {
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        int diff = b - a;
+        int prod = a * b;
+        int div = b / a;
+        int mod = b % a;
+        System.out.println("Result Sum: " + sum);
+        System.out.println("Result Diff: " + diff);
+        System.out.println("Result Prod: " + prod);
+        System.out.println("Result Div: " + div);
+        System.out.println("Result Mod: " + mod);
     }
 
-    public void duplicateOrderBlock() {
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
-        System.out.println("Processing order payment and inventory check");
+    public void processUserDataDuplicate() {
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        int diff = b - a;
+        int prod = a * b;
+        int div = b / a;
+        int mod = b % a;
+        System.out.println("Result Sum: " + sum);
+        System.out.println("Result Diff: " + diff);
+        System.out.println("Result Prod: " + prod);
+        System.out.println("Result Div: " + div);
+        System.out.println("Result Mod: " + mod);
     }
 
-    public void uniqueBlockOne() {
-        System.out.println("Line A1");
-        System.out.println("Line A2");
-        System.out.println("Line A3");
-        System.out.println("Line A4");
-        System.out.println("Line A5");
-        System.out.println("Line A6");
-        System.out.println("Line A7");
-        System.out.println("Line A8");
-        System.out.println("Line A9");
-        System.out.println("Line A10");
-        System.out.println("Line A11");
-        System.out.println("Line A12");
-        System.out.println("Line A13");
-        System.out.println("Line A14");
-        System.out.println("Line A15");
-    }
-
-    public void uniqueBlockTwo() {
-        System.out.println("Line B1");
-        System.out.println("Line B2");
-        System.out.println("Line B3");
-        System.out.println("Line B4");
-        System.out.println("Line B5");
-        System.out.println("Line B6");
-        System.out.println("Line B7");
-        System.out.println("Line B8");
-        System.out.println("Line B9");
-        System.out.println("Line B10");
-        System.out.println("Line B11");
-        System.out.println("Line B12");
-        System.out.println("Line B13");
-        System.out.println("Line B14");
-        System.out.println("Line B15");
-        System.out.println("Line B16");
-        System.out.println("Line B17");
-        System.out.println("Line B18");
-        System.out.println("Line B19");
-        System.out.println("Line B20");
-        System.out.println("Line B21");
-        System.out.println("Line B22");
-        System.out.println("Line B23");
-        System.out.println("Line B24");
-        System.out.println("Line B25");
-        System.out.println("Line B26");
-        System.out.println("Line B27");
-        System.out.println("Line B28");
-        System.out.println("Line B29");
-        System.out.println("Line B30");
-        System.out.println("Line B31");
-        System.out.println("Line B32");
-        System.out.println("Line B33");
-        System.out.println("Line B34");
-        System.out.println("Line B35");
-        System.out.println("Line B36");
-        System.out.println("Line B37");
-        System.out.println("Line B38");
-        System.out.println("Line B39");
-        System.out.println("Line B40");
-        System.out.println("Line B41");
-        System.out.println("Line B42");
-        System.out.println("Line B43");
-        System.out.println("Line B44");
-        System.out.println("Line B45");
-        System.out.println("Line B46");
-        System.out.println("Line B47");
-        System.out.println("Line B48");
-        System.out.println("Line B49");
-        System.out.println("Line B50");
-        System.out.println("Line B51");
-        System.out.println("Line B52");
-        System.out.println("Line B53");
-        System.out.println("Line B54");
-        System.out.println("Line B55");
-        System.out.println("Line B56");
-        System.out.println("Line B57");
-        System.out.println("Line B58");
-        System.out.println("Line B59");
-        System.out.println("Line B60");
-        System.out.println("Line B61");
-        System.out.println("Line B62");
-        System.out.println("Line B63");
-        System.out.println("Line B64");
-        System.out.println("Line B65");
-        System.out.println("Line B66");
-        System.out.println("Line B67");
-        System.out.println("Line B68");
-        System.out.println("Line B69");
-        System.out.println("Line B70");
-        System.out.println("Line B71");
-        System.out.println("Line B72");
-        System.out.println("Line B73");
-        System.out.println("Line B74");
-        System.out.println("Line B75");
+    public void uniqueBlock() {
+        int x1 = 1; int x2 = 2; int x3 = 3; int x4 = 4; int x5 = 5;
+        int x6 = 6; int x7 = 7; int x8 = 8; int x9 = 9; int x10 = 10;
+        int x11 = 11; int x12 = 12; int x13 = 13; int x14 = 14; int x15 = 15;
+        int x16 = 16; int x17 = 17; int x18 = 18; int x19 = 19; int x20 = 20;
+        int x21 = 21; int x22 = 22; int x23 = 23; int x24 = 24; int x25 = 25;
+        int x26 = 26; int x27 = 27; int x28 = 28; int x29 = 29; int x30 = 30;
+        int x31 = 31; int x32 = 32; int x33 = 33; int x34 = 34; int x35 = 35;
+        int x36 = 36; int x37 = 37; int x38 = 38; int x39 = 39; int x40 = 40;
+        int x41 = 41; int x42 = 42; int x43 = 43; int x44 = 44; int x45 = 45;
+        int x46 = 46; int x47 = 47; int x48 = 48; int x49 = 49; int x50 = 50;
+        int x51 = 51; int x52 = 52; int x53 = 53; int x54 = 54; int x55 = 55;
+        int x56 = 56; int x57 = 57; int x58 = 58; int x59 = 59; int x60 = 60;
+        System.out.println("Total variables initialized: " + (x1 + x60));
     }
 }
