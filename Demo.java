@@ -1,62 +1,59 @@
-package com.example;
-
 public class Demo {
+
+    public static void main(String[] args) {
+        Demo demo = new Demo();
+        demo.processUserData();
+        demo.processUserDataDuplicate();
+        demo.extraLogicOne();
+        demo.extraLogicTwo();
+        demo.extraLogicThree();
+    }
 
     public void processUserData() {
         int firstValue = 10;
         int secondValue = 20;
-        int resultSum = firstValue + secondValue;
-        int resultDiff = secondValue - firstValue;
-        int resultProd = firstValue * secondValue;
-        int resultDiv = secondValue / firstValue;
-        int resultMod = secondValue % firstValue;
-        System.out.println("Result Sum: " + resultSum);
-        System.out.println("Result Diff: " + resultDiff);
-        System.out.println("Result Prod: " + resultProd);
-        System.out.println("Result Div: " + resultDiv);
-        System.out.println("Result Mod: " + resultMod);
+        int sum = firstValue + secondValue;
+        int diff = secondValue - firstValue;
+        int prod = firstValue * secondValue;
+        int div = secondValue / firstValue;
+        int mod = secondValue % firstValue;
+        System.out.println("Sum: " + sum);
+        System.out.println("Diff: " + diff);
+        System.out.println("Prod: " + prod);
+        System.out.println("Div: " + div);
+        System.out.println("Mod: " + mod);
     }
 
     public void processUserDataDuplicate() {
         int firstValue = 10;
         int secondValue = 20;
-        int resultSum = firstValue + secondValue;
-        int resultDiff = secondValue - firstValue;
-        int resultProd = firstValue * secondValue;
-        int resultDiv = secondValue / firstValue;
-        int resultMod = secondValue % firstValue;
-        System.out.println("Result Sum: " + resultSum);
-        System.out.println("Result Diff: " + resultDiff);
-        System.out.println("Result Prod: " + resultProd);
-        System.out.println("Result Div: " + resultDiv);
-        System.out.println("Result Mod: " + resultMod);
+        int sum = firstValue + secondValue;
+        int diff = secondValue - firstValue;
+        int prod = firstValue * secondValue;
+        int div = secondValue / firstValue;
+        int mod = secondValue % firstValue;
+        System.out.println("Sum: " + sum);
+        System.out.println("Diff: " + diff);
+        System.out.println("Prod: " + prod);
+        System.out.println("Div: " + div);
+        System.out.println("Mod: " + mod);
     }
 
-    public void uniqueFeatureBlockOne() {
-        int alphaOne = 1; int alphaTwo = 2; int alphaThree = 3; int alphaFour = 4;
-        int alphaFive = 5; int alphaSix = 6; int alphaSeven = 7; int alphaEight = 8;
-        int alphaNine = 9; int alphaTen = 10; int alphaEleven = 11; int alphaTwelve = 12;
-        System.out.println("Unique Total Block 1: " + (alphaOne + alphaTwelve));
+    public void extraLogicOne() {
+        int a = 1; int b = 2; int c = 3; int d = 4; int e = 5;
+        int f = 6; int g = 7; int h = 8; int i = 9; int j = 10;
+        System.out.println("Logic 1: " + (a + b + c + d + e + f + g + h + i + j));
     }
 
-    public void uniqueFeatureBlockTwo() {
-        int betaOne = 100; int betaTwo = 200; int betaThree = 300; int betaFour = 400;
-        int betaFive = 500; int betaSix = 600; int betaSeven = 700; int betaEight = 800;
-        int betaNine = 900; int betaTen = 1000; int betaEleven = 1100; int betaTwelve = 1200;
-        System.out.println("Unique Total Block 2: " + (betaOne + betaTwelve));
+    public void extraLogicTwo() {
+        int k = 11; int l = 12; int m = 13; int n = 14; int o = 15;
+        int p = 16; int q = 17; int r = 18; int s = 19; int t = 20;
+        System.out.println("Logic 2: " + (k + l + m + n + o + p + q + r + s + t));
     }
 
-    public void uniqueFeatureBlockThree() {
-        int gammaOne = 10; int gammaTwo = 20; int gammaThree = 30; int gammaFour = 40;
-        int gammaFive = 50; int gammaSix = 60; int gammaSeven = 70; int gammaEight = 80;
-        int gammaNine = 90; int gammaTen = 100; int gammaEleven = 110; int gammaTwelve = 120;
-        System.out.println("Unique Total Block 3: " + (gammaOne + gammaTwelve));
-    }
-
-    public void uniqueFeatureBlockFour() {
-        int deltaOne = 11; int deltaTwo = 22; int deltaThree = 33; int deltaFour = 44;
-        int deltaFive = 55; int deltaSix = 66; int deltaSeven = 77; int deltaEight = 88;
-        int deltaNine = 99; int deltaTen = 110; int deltaEleven = 121; int deltaTwelve = 132;
-        System.out.println("Unique Total Block 4: " + (deltaOne + deltaTwelve));
+    public void extraLogicThree() {
+        int u = 21; int v = 22; int w = 23; int x = 24; int y = 25;
+        int z = 26; int a1 = 27; int b1 = 28; int c1 = 29; int d1 = 30;
+        System.out.println("Logic 3: " + (u + v + w + x + y + z + a1 + b1 + c1 + d1));
     }
 }
