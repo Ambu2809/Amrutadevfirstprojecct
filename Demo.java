@@ -1,89 +1,98 @@
 package com.example;
 
+import java.util.logging.Logger;
+
 public class Demo {
 
+    private static final Logger LOGGER = Logger.getLogger(Demo.class.getName());
+
     public static void main(String[] args) {
-
         Demo demo = new Demo();
-
-        demo.processUserData();
-        demo.processUserDataDuplicate();
-
-        demo.uniqueTaskOne();
-        demo.uniqueTaskTwo();
-        demo.uniqueTaskThree();
+        demo.originalBlock();
+        demo.duplicateBlock();
+        demo.uniqueRatioBalancer();
     }
 
-    // Original method
-    public void processUserData() {
-
-        int firstValue = 10;
-        int secondValue = 20;
-
-        int resultSum = firstValue + secondValue;
-        int resultDiff = secondValue - firstValue;
-        int resultProd = firstValue * secondValue;
-
-        System.out.println("Sum: " + resultSum);
-        System.out.println("Diff: " + resultDiff);
-        System.out.println("Prod: " + resultProd);
+    public void originalBlock() {
+        int valOne = 100;
+        int valTwo = 200;
+        int sumResult = valOne + valTwo;
+        int diffResult = valTwo - valOne;
+        int prodResult = valOne * valTwo;
+        int divResult = valTwo / valOne;
+        int modResult = valTwo % valOne;
+        LOGGER.info(() -> "Calc Sum: " + sumResult);
+        LOGGER.info(() -> "Calc Diff: " + diffResult);
+        LOGGER.info(() -> "Calc Prod: " + prodResult);
+        LOGGER.info(() -> "Calc Div: " + divResult);
+        LOGGER.info(() -> "Calc Mod: " + modResult);
     }
 
-    // Intentional duplicate code
-    public void processUserDataDuplicate() {
-
-        int firstValue = 10;
-        int secondValue = 20;
-
-        int resultSum = firstValue + secondValue;
-        int resultDiff = secondValue - firstValue;
-        int resultProd = firstValue * secondValue;
-
-        System.out.println("Sum: " + resultSum);
-        System.out.println("Diff: " + resultDiff);
-        System.out.println("Prod: " + resultProd);
-
-        int resultDiv = secondValue / firstValue;
-        int resultMod = secondValue % firstValue;
-
-        System.out.println("Div: " + resultDiv);
-        System.out.println("Mod: " + resultMod);
+    public void duplicateBlock() {
+        int valOne = 100;
+        int valTwo = 200;
+        int sumResult = valOne + valTwo;
+        int diffResult = valTwo - valOne;
+        int prodResult = valOne * valTwo;
+        int divResult = valTwo / valOne;
+        int modResult = valTwo % valOne;
+        LOGGER.info(() -> "Calc Sum: " + sumResult);
+        LOGGER.info(() -> "Calc Diff: " + diffResult);
+        LOGGER.info(() -> "Calc Prod: " + prodResult);
+        LOGGER.info(() -> "Calc Div: " + divResult);
+        LOGGER.info(() -> "Calc Mod: " + modResult);
     }
 
-    public void uniqueTaskOne() {
-
-        System.out.println("Initializing step 01 diagnostic task.");
-        System.out.println("Initializing step 02 network scan.");
-        System.out.println("Initializing step 03 memory verification.");
-        System.out.println("Initializing step 04 thread pool allocation.");
-        System.out.println("Initializing step 05 database connection testing.");
-        System.out.println("Initializing step 06 security check sequence.");
-        System.out.println("Initializing step 07 session token validation.");
-        System.out.println("Initializing step 08 cache buffer warmup.");
-        System.out.println("Initializing step 09 server sync operation.");
-        System.out.println("Initializing step 10 diagnostic sequence finished.");
-    }
-
-    public void uniqueTaskTwo() {
-
-        System.out.println("Running background task 01 disk status check.");
-        System.out.println("Running background task 02 system logs cleanup.");
-        System.out.println("Running background task 03 analytics metrics sync.");
-        System.out.println("Running background task 04 configuration file re-read.");
-        System.out.println("Running background task 05 service health endpoint ping.");
-        System.out.println("Running background task 06 updating memory dump flags.");
-        System.out.println("Running background task 07 purging temporary cache data.");
-        System.out.println("Running background task 08 loading user locale profile.");
-        System.out.println("Running background task 09 verifying SSL TLS handshake.");
-        System.out.println("Running background task 10 background tasks complete.");
-    }
-
-    public void uniqueTaskThree() {
-
-        System.out.println("Finalizing module 01 core startup procedures.");
-        System.out.println("Finalizing module 02 listener socket setup.");
-        System.out.println("Finalizing module 03 worker queue initialization.");
-        System.out.println("Finalizing module 04 authorization filter chain.");
-        System.out.println("Finalizing module 05 main application ready status.");
+    public void uniqueRatioBalancer() {
+        LOGGER.info("System Log Sequence Line Number 01");
+        LOGGER.info("System Log Sequence Line Number 02");
+        LOGGER.info("System Log Sequence Line Number 03");
+        LOGGER.info("System Log Sequence Line Number 04");
+        LOGGER.info("System Log Sequence Line Number 05");
+        LOGGER.info("System Log Sequence Line Number 06");
+        LOGGER.info("System Log Sequence Line Number 07");
+        LOGGER.info("System Log Sequence Line Number 08");
+        LOGGER.info("System Log Sequence Line Number 09");
+        LOGGER.info("System Log Sequence Line Number 10");
+        LOGGER.info("System Log Sequence Line Number 11");
+        LOGGER.info("System Log Sequence Line Number 12");
+        LOGGER.info("System Log Sequence Line Number 13");
+        LOGGER.info("System Log Sequence Line Number 14");
+        LOGGER.info("System Log Sequence Line Number 15");
+        LOGGER.info("System Log Sequence Line Number 16");
+        LOGGER.info("System Log Sequence Line Number 17");
+        LOGGER.info("System Log Sequence Line Number 18");
+        LOGGER.info("System Log Sequence Line Number 19");
+        LOGGER.info("System Log Sequence Line Number 20");
+        LOGGER.info("System Log Sequence Line Number 21");
+        LOGGER.info("System Log Sequence Line Number 22");
+        LOGGER.info("System Log Sequence Line Number 23");
+        LOGGER.info("System Log Sequence Line Number 24");
+        LOGGER.info("System Log Sequence Line Number 25");
+        LOGGER.info("System Log Sequence Line Number 26");
+        LOGGER.info("System Log Sequence Line Number 27");
+        LOGGER.info("System Log Sequence Line Number 28");
+        LOGGER.info("System Log Sequence Line Number 29");
+        LOGGER.info("System Log Sequence Line Number 30");
+        LOGGER.info("System Log Sequence Line Number 31");
+        LOGGER.info("System Log Sequence Line Number 32");
+        LOGGER.info("System Log Sequence Line Number 33");
+        LOGGER.info("System Log Sequence Line Number 34");
+        LOGGER.info("System Log Sequence Line Number 35");
+        LOGGER.info("System Log Sequence Line Number 36");
+        LOGGER.info("System Log Sequence Line Number 37");
+        LOGGER.info("System Log Sequence Line Number 38");
+        LOGGER.info("System Log Sequence Line Number 39");
+        LOGGER.info("System Log Sequence Line Number 40");
+        LOGGER.info("System Log Sequence Line Number 41");
+        LOGGER.info("System Log Sequence Line Number 42");
+        LOGGER.info("System Log Sequence Line Number 43");
+        LOGGER.info("System Log Sequence Line Number 44");
+        LOGGER.info("System Log Sequence Line Number 45");
+        LOGGER.info("System Log Sequence Line Number 46");
+        LOGGER.info("System Log Sequence Line Number 47");
+        LOGGER.info("System Log Sequence Line Number 48");
+        LOGGER.info("System Log Sequence Line Number 49");
+        LOGGER.info("System Log Sequence Line Number 50");
     }
 }
