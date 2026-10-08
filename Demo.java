@@ -3,108 +3,87 @@ package com.example;
 public class Demo {
 
     public static void main(String[] args) {
+
         Demo demo = new Demo();
-        demo.originalBlock();
-        demo.duplicateBlock();
-        demo.uniqueRatioBalancer();
+
+        demo.processUserData();
+        demo.processUserDataDuplicate();
+
+        demo.uniqueTaskOne();
+        demo.uniqueTaskTwo();
+        demo.uniqueTaskThree();
     }
 
-    public void originalBlock() {
-        int valOne = 100;
-        int valTwo = 200;
-        int sumResult = valOne + valTwo;
-        int diffResult = valTwo - valOne;
-        int prodResult = valOne * valTwo;
-        int divResult = valTwo / valOne;
-        int modResult = valTwo % valOne;
-        System.out.println("Calc Sum: " + sumResult);
-        System.out.println("Calc Diff: " + diffResult);
-        System.out.println("Calc Prod: " + prodResult);
+    // Original method
+    public void processUserData() {
+
+        int firstValue = 10;
+        int secondValue = 20;
+
+        int resultSum = firstValue + secondValue;
+        int resultDiff = secondValue - firstValue;
+        int resultProd = firstValue * secondValue;
+
+        System.out.println("Sum: " + resultSum);
+        System.out.println("Diff: " + resultDiff);
+        System.out.println("Prod: " + resultProd);
     }
 
-    public void duplicateBlock() {
-        int valOne = 100;
-        int valTwo = 200;
-        int sumResult = valOne + valTwo;
-        int diffResult = valTwo - valOne;
-        int prodResult = valOne * valTwo;
-        int divResult = valTwo / valOne;
-        int modResult = valTwo % valOne;
-        System.out.println("Calc Sum: " + sumResult);
-        System.out.println("Calc Diff: " + diffResult);
-        System.out.println("Calc Prod: " + prodResult);
+    // Intentional duplicate code
+    public void processUserDataDuplicate() {
+
+        int firstValue = 10;
+        int secondValue = 20;
+
+        int resultSum = firstValue + secondValue;
+        int resultDiff = secondValue - firstValue;
+        int resultProd = firstValue * secondValue;
+
+        System.out.println("Sum: " + resultSum);
+        System.out.println("Diff: " + resultDiff);
+        System.out.println("Prod: " + resultProd);
+
+        int resultDiv = secondValue / firstValue;
+        int resultMod = secondValue % firstValue;
+
+        System.out.println("Div: " + resultDiv);
+        System.out.println("Mod: " + resultMod);
     }
 
-    public void uniqueRatioBalancer() {
-        System.out.println("System Log Sequence Line Number 01");
-        System.out.println("System Log Sequence Line Number 02");
-        System.out.println("System Log Sequence Line Number 03");
-        System.out.println("System Log Sequence Line Number 04");
-        System.out.println("System Log Sequence Line Number 05");
-        System.out.println("System Log Sequence Line Number 06");
-        System.out.println("System Log Sequence Line Number 07");
-        System.out.println("System Log Sequence Line Number 08");
-        System.out.println("System Log Sequence Line Number 09");
-        System.out.println("System Log Sequence Line Number 10");
-        System.out.println("System Log Sequence Line Number 11");
-        System.out.println("System Log Sequence Line Number 12");
-        System.out.println("System Log Sequence Line Number 13");
-        System.out.println("System Log Sequence Line Number 14");
-        System.out.println("System Log Sequence Line Number 15");
-        System.out.println("System Log Sequence Line Number 16");
-        System.out.println("System Log Sequence Line Number 17");
-        System.out.println("System Log Sequence Line Number 18");
-        System.out.println("System Log Sequence Line Number 19");
-        System.out.println("System Log Sequence Line Number 20");
-        System.out.println("System Log Sequence Line Number 21");
-        System.out.println("System Log Sequence Line Number 22");
-        System.out.println("System Log Sequence Line Number 23");
-        System.out.println("System Log Sequence Line Number 24");
-        System.out.println("System Log Sequence Line Number 25");
-        System.out.println("System Log Sequence Line Number 26");
-        System.out.println("System Log Sequence Line Number 27");
-        System.out.println("System Log Sequence Line Number 28");
-        System.out.println("System Log Sequence Line Number 29");
-        System.out.println("System Log Sequence Line Number 30");
-        System.out.println("System Log Sequence Line Number 31");
-        System.out.println("System Log Sequence Line Number 32");
-        System.out.println("System Log Sequence Line Number 33");
-        System.out.println("System Log Sequence Line Number 34");
-        System.out.println("System Log Sequence Line Number 35");
-        System.out.println("System Log Sequence Line Number 36");
-        System.out.println("System Log Sequence Line Number 37");
-        System.out.println("System Log Sequence Line Number 38");
-        System.out.println("System Log Sequence Line Number 39");
-        System.out.println("System Log Sequence Line Number 40");
-        System.out.println("System Log Sequence Line Number 41");
-        System.out.println("System Log Sequence Line Number 42");
-        System.out.println("System Log Sequence Line Number 43");
-        System.out.println("System Log Sequence Line Number 44");
-        System.out.println("System Log Sequence Line Number 45");
-        System.out.println("System Log Sequence Line Number 46");
-        System.out.println("System Log Sequence Line Number 47");
-        System.out.println("System Log Sequence Line Number 48");
-        System.out.println("System Log Sequence Line Number 49");
-        System.out.println("System Log Sequence Line Number 50");
-        System.out.println("System Log Sequence Line Number 51");
-        System.out.println("System Log Sequence Line Number 52");
-        System.out.println("System Log Sequence Line Number 53");
-        System.out.println("System Log Sequence Line Number 54");
-        System.out.println("System Log Sequence Line Number 55");
-        System.out.println("System Log Sequence Line Number 56");
-        System.out.println("System Log Sequence Line Number 57");
-        System.out.println("System Log Sequence Line Number 58");
-        System.out.println("System Log Sequence Line Number 59");
-        System.out.println("System Log Sequence Line Number 60");
-        System.out.println("System Log Sequence Line Number 61");
-        System.out.println("System Log Sequence Line Number 62");
-        System.out.println("System Log Sequence Line Number 63");
-        System.out.println("System Log Sequence Line Number 64");
-        System.out.println("System Log Sequence Line Number 65");
-        System.out.println("System Log Sequence Line Number 66");
-        System.out.println("System Log Sequence Line Number 67");
-        System.out.println("System Log Sequence Line Number 68");
-        System.out.println("System Log Sequence Line Number 69");
-        System.out.println("System Log Sequence Line Number 70");
+    public void uniqueTaskOne() {
+
+        System.out.println("Initializing step 01 diagnostic task.");
+        System.out.println("Initializing step 02 network scan.");
+        System.out.println("Initializing step 03 memory verification.");
+        System.out.println("Initializing step 04 thread pool allocation.");
+        System.out.println("Initializing step 05 database connection testing.");
+        System.out.println("Initializing step 06 security check sequence.");
+        System.out.println("Initializing step 07 session token validation.");
+        System.out.println("Initializing step 08 cache buffer warmup.");
+        System.out.println("Initializing step 09 server sync operation.");
+        System.out.println("Initializing step 10 diagnostic sequence finished.");
+    }
+
+    public void uniqueTaskTwo() {
+
+        System.out.println("Running background task 01 disk status check.");
+        System.out.println("Running background task 02 system logs cleanup.");
+        System.out.println("Running background task 03 analytics metrics sync.");
+        System.out.println("Running background task 04 configuration file re-read.");
+        System.out.println("Running background task 05 service health endpoint ping.");
+        System.out.println("Running background task 06 updating memory dump flags.");
+        System.out.println("Running background task 07 purging temporary cache data.");
+        System.out.println("Running background task 08 loading user locale profile.");
+        System.out.println("Running background task 09 verifying SSL TLS handshake.");
+        System.out.println("Running background task 10 background tasks complete.");
+    }
+
+    public void uniqueTaskThree() {
+
+        System.out.println("Finalizing module 01 core startup procedures.");
+        System.out.println("Finalizing module 02 listener socket setup.");
+        System.out.println("Finalizing module 03 worker queue initialization.");
+        System.out.println("Finalizing module 04 authorization filter chain.");
+        System.out.println("Finalizing module 05 main application ready status.");
     }
 }
