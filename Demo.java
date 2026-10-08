@@ -1,47 +1,41 @@
-public class DuplicationTest {
+public class Demo {
+    public static void main(String[] args) {
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
+        System.out.println("Testing duplication string 123");
 
-    public void processOrder() {
-        System.out.println("Starting order processing flow");
-        System.out.println("Fetching customer details from DB");
-        System.out.println("Calculating total order cost and taxes");
-        System.out.println("Applying discount codes if applicable");
-        System.out.println("Generating invoice for customer transaction");
-        System.out.println("Sending payment request to gateway");
-        System.out.println("Awaiting response from payment gateway");
-        System.out.println("Order status updated to completed");
-        System.out.println("Sending confirmation email to user");
-        System.out.println("Order processing successfully finished");
-    }
-
-    // --- REPEATED BLOCK (10 Lines) ---
-    public void validateTransaction() {
-        System.out.println("Fetching customer details from DB");
-        System.out.println("Calculating total order cost and taxes");
-        System.out.println("Applying discount codes if applicable");
-        System.out.println("Generating invoice for customer transaction");
-        System.out.println("Sending payment request to gateway");
-        System.out.println("Awaiting response from payment gateway");
-        System.out.println("Order status updated to completed");
-        System.out.println("Sending confirmation email to user");
-        System.out.println("Order processing successfully finished");
-    }
-
-    public void cancelOrder() {
-        System.out.println("Initiating cancellation sequence");
-        System.out.println("Verifying order eligibility for refund");
-        System.out.println("Contacting payment gateway for refund request");
-        System.out.println("Processing partial or full refund amount");
-        System.out.println("Updating inventory count for cancelled items");
-        System.out.println("Sending cancellation confirmation to customer");
-        System.out.println("Logging cancellation event in admin panel");
-        System.out.println("Closing customer support ticket automatically");
-        System.out.println("Notifying warehouse team to halt shipping");
-        System.out.println("Transaction successfully rolled back");
-        System.out.println("Database records synchronized with new state");
-        System.out.println("System audit log entry created");
-        System.out.println("Cleanup completed for order session");
-        System.out.println("Cancellation routine finished without errors");
-        System.out.println("Returning control to main application pipeline");
-        System.out.println("End of cancellation method execution");
+        System.out.println("Unique line to maintain structure 1");
+        System.out.println("Unique line to maintain structure 2");
+        System.out.println("Unique line to maintain structure 3");
+        System.out.println("Unique line to maintain structure 4");
+        System.out.println("Unique line to maintain structure 5");
+        System.out.println("Unique line to maintain structure 6");
+        System.out.println("Unique line to maintain structure 7");
+        System.out.println("Unique line to maintain structure 8");
+        System.out.println("Unique line to maintain structure 9");
+        System.out.println("Unique line to maintain structure 10");
+        System.out.println("Unique line to maintain structure 11");
+        System.out.println("Unique line to maintain structure 12");
+        System.out.println("Unique line to maintain structure 13");
+        System.out.println("Unique line to maintain structure 14");
+        System.out.println("Unique line to maintain structure 15");
+        System.out.println("Unique line to maintain structure 16");
+        System.out.println("Unique line to maintain structure 17");
+        System.out.println("Unique line to maintain structure 18");
+        System.out.println("Unique line to maintain structure 19");
+        System.out.println("Unique line to maintain structure 20");
     }
 }
+
