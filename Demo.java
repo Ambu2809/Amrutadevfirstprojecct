@@ -13,19 +13,6 @@ public class Demo {
         System.out.println("Process completed successfully!");
     }
 
-    public void processAdminData() {
-        System.out.println("Connecting to database server...");
-        System.out.println("Fetching user details from table...");
-        System.out.println("Validating user permissions and roles...");
-        System.out.println("Formatting data into JSON object...");
-        System.out.println("Encrypting sensitive account information...");
-        System.out.println("Sending response to client interface...");
-        System.out.println("Logging successful transaction event...");
-        System.out.println("Closing database connection pool...");
-        System.out.println("Clearing temporary cache memory...");
-        System.out.println("Process completed successfully!");
-    }
-
     public void extraFeatureOne() {
         System.out.println("Feature 1: Initializing configuration settings.");
         System.out.println("Feature 1: Loading default environment variables.");
@@ -63,15 +50,5 @@ public class Demo {
         System.out.println("Feature 3: Archiving historical data logs.");
         System.out.println("Feature 3: Cleaning up temporary storage.");
         System.out.println("Feature 3: Analytics routine finished.");
-    }
-
-    public void extraFeatureFour() {
-        System.out.println("Feature 4: Executing final clean up task.");
-        System.out.println("Feature 4: Releasing unused memory blocks.");
-        System.out.println("Feature 4: Shutting down idle connection pools.");
-        System.out.println("Feature 4: Flushing disk I O buffers.");
-        System.out.println("Feature 4: Terminating secondary threads.");
-        System.out.println("Feature 4: Backup configuration state.");
-        System.out.println("Feature 4: System ready for graceful shutdown.");
     }
 }
