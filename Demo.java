@@ -64,35 +64,5 @@ public class Demo {
         LOGGER.info("System Log Sequence Line Number 18");
         LOGGER.info("System Log Sequence Line Number 19");
         LOGGER.info("System Log Sequence Line Number 20");
-        LOGGER.info("System Log Sequence Line Number 21");
-        LOGGER.info("System Log Sequence Line Number 22");
-        LOGGER.info("System Log Sequence Line Number 23");
-        LOGGER.info("System Log Sequence Line Number 24");
-        LOGGER.info("System Log Sequence Line Number 25");
-        LOGGER.info("System Log Sequence Line Number 26");
-        LOGGER.info("System Log Sequence Line Number 27");
-        LOGGER.info("System Log Sequence Line Number 28");
-        LOGGER.info("System Log Sequence Line Number 29");
-        LOGGER.info("System Log Sequence Line Number 30");
-        LOGGER.info("System Log Sequence Line Number 31");
-        LOGGER.info("System Log Sequence Line Number 32");
-        LOGGER.info("System Log Sequence Line Number 33");
-        LOGGER.info("System Log Sequence Line Number 34");
-        LOGGER.info("System Log Sequence Line Number 35");
-        LOGGER.info("System Log Sequence Line Number 36");
-        LOGGER.info("System Log Sequence Line Number 37");
-        LOGGER.info("System Log Sequence Line Number 38");
-        LOGGER.info("System Log Sequence Line Number 39");
-        LOGGER.info("System Log Sequence Line Number 40");
-        LOGGER.info("System Log Sequence Line Number 41");
-        LOGGER.info("System Log Sequence Line Number 42");
-        LOGGER.info("System Log Sequence Line Number 43");
-        LOGGER.info("System Log Sequence Line Number 44");
-        LOGGER.info("System Log Sequence Line Number 45");
-        LOGGER.info("System Log Sequence Line Number 46");
-        LOGGER.info("System Log Sequence Line Number 47");
-        LOGGER.info("System Log Sequence Line Number 48");
-        LOGGER.info("System Log Sequence Line Number 49");
-        LOGGER.info("System Log Sequence Line Number 50");
     }
 }
